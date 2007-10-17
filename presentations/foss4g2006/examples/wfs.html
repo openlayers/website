@@ -1,0 +1,20 @@
+<html>
+<head>
+  <title>OpenLayers Example</title>
+  <script src="http://openlayers.org/api/2.1-rc1/OpenLayers.js"></script>
+</head>
+<body>
+  <div style="width:100%; height:100%" id="map"></div>
+  <script defer="defer" type="text/javascript">
+    var map = new OpenLayers.Map('map');
+    var wms = new OpenLayers.Layer.WMS( "OpenLayers WMS", 
+        "http://labs.metacarta.com/wms/vmap0", {layers: 'basic'} );
+    OpenLayers.ProxyHost="/proxy/?url=";
+    var wfs = new OpenLayers.Layer.WFS( "Owl Survey",
+               "http://www.bsc-eoc.org/cgi-bin/bsc_ows.asp?",
+               {typename: "OWLS", maxfeatures: 30});
+    map.addLayers([wms,wfs]);
+    map.zoomToMaxExtent();
+  </script>
+</body>
+</html>

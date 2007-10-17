@@ -1,0 +1,15 @@
+<html>
+<head>
+  <title>OpenLayers Example</title>
+  <script src="http://openlayers.org/api/2.1-rc1/OpenLayers.js"></script>
+</head>
+<body>
+  <div style="width:100%; height:100%" id="map"></div>
+  <script defer="defer" type="text/javascript">
+    var map = new OpenLayers.Map('map');
+    var yahoo = new OpenLayers.Layer.Yahoo( "Yahoo" );
+    map.addLayers([yahoo]);
+    map.zoomToMaxExtent();
+  </script>
+</body>
+</html>

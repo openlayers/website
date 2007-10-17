@@ -1,0 +1,75 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Iowa</title>
+    <style type="text/css">
+    body { font-family: sans-serif; font-weight: bold; font-size: .8em; }
+    body {
+	border: 0px;
+	margin: 0px;
+	padding: 0px;
+    }
+    #map {
+	width: 95%;
+	height: 90%;
+	border: 0px;
+	padding: 0px;
+    }
+    </style>
+
+    <script src="http://openlayers.org/api/1/OpenLayers.js"></script>
+    <script type="text/javascript">
+	var theArgs = getArgs();
+    var lon = theArgs.lon ? theArgs.lon : (172089+738087)/2;
+	var lat = theArgs.lat ? theArgs.lat : (4446551+4856974)/2;
+	var zoom = theArgs.zoom ? theArgs.zoom : 0;
+        var map, layer;
+
+        function init(){
+	    // these should be object methods or something
+            map = new OpenLayers.Map( $('map'), {maxExtent: new OpenLayers.Bounds(172089, 4446551, 738087, 4856974), maxResolution: "auto", projection: "EPSG:26915" } );
+            var iamap = new OpenLayers.Layer.WMS( "Landcover/Usage Layer", 
+                "http://cairo.gis.iastate.edu/server.cgi?wmtver=1.0&",
+                {layers: 'lc_2002', 'format':'jpeg',servicename:'iowa'} );
+            var iamap2 = iamap.clone("1:24000 DRGs", { layers: 'drg24' });
+            var iamap3 = iamap.clone("Iowa Historic Vegetation 1832-1859", { layers: 'gloveg' });
+            var iamap4 = iamap.clone("Iowa USDA NAIP 2005", { layers: 'naip_2005' });
+            var iamap5 = iamap.clone("Iowa USDA Orthos 1930s", { layers: 'ortho_1930' });
+            iamap.setVisibility(false);
+            iamap2.setVisibility(false);
+            iamap3.setVisibility(false);
+            iamap5.setVisibility(false);
+            map.addLayers([iamap4,iamap,iamap2,iamap3,iamap5]);
+            map.setCenter(new OpenLayers.LonLat(lon, lat), zoom);
+            map.addControl(new OpenLayers.Control.LayerSwitcher());
+            map.events.register('moveend', map, updateLink);
+        }
+        function updateLink() {
+           pl = document.getElementById("permalink");
+           center = this.getCenter();
+           zoom = this.getZoom(); 
+           lat = Math.round(center.lat*1000)/1000;
+           lon = Math.round(center.lon*1000)/1000;
+           pl.href = "?lat="+lat+"&lon="+lon+"&zoom="+zoom; 
+        }
+function getArgs() {
+    var args = new Object();
+    var query = location.search.substring(1);  // Get query string.
+    var pairs = query.split("&");              // Break at ampersand. //+pjl
+
+    for(var i = 0; i < pairs.length; i++) {
+    var pos = pairs[i].indexOf('=');       // Look for "name=value".
+    if (pos == -1) continue;               // If not found, skip.
+    var argname = pairs[i].substring(0,pos);  // Extract the name.
+    var value = pairs[i].substring(pos+1); // Extract the value.
+    args[argname] = unescape(value);          // Store as a property.
+    }
+    return args;                               // Return the object.
+}
+    </script>
+  </head>
+
+<body onload="init()">
+    <a href="" id="permalink">Permalink</a>
+    <div id="map"></div>
+</body>
+</html>

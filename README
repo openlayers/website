@@ -1,0 +1,21 @@
+The .shtml files in this directory are Apache server-parsed HTML files. Using
+server-side includes allows us to have a standard header and footer for all
+the pages on the site. This requires having Apache load mod_include, and
+then the following configuration is required in the VirtualHost:
+
+    Options +Includes
+    AddType text/html .shtml
+    AddOutputFilter INCLUDES .shtml
+    DirectoryIndex index.cgi index.shtml index.html
+
+At present, loading mod_include causes a weird interaction with Trac, which is
+fixed by adding the following to the Trac VirtualHost:
+
+    ErrorDocument 401 default
+
+The Apache server on openlayers.org is (naturally) currently configured this
+way.
+
+The openlayers directory in this directory is a separate checkout from
+htdocs.  You must go INSIDE the openlayers directory to update it.
+updating ~/openlayers.org/htdocs only gets the home page material.

@@ -1,0 +1,88 @@
+MAP
+  EXTENT -180 -90 180 90
+  IMAGECOLOR 255 255 255
+  IMAGETYPE png
+  SIZE 500 250
+  STATUS ON
+  UNITS DD
+  NAME "World Demo"
+
+  OUTPUTFORMAT
+    NAME png
+    MIMETYPE image/png
+    DRIVER GD/PNG
+    EXTENSION png
+    IMAGEMODE PC256
+    TRANSPARENT FALSE
+  END
+
+  PROJECTION
+    "init=epsg:4326"
+  END
+
+  WEB
+    IMAGEPATH "/tmp/"
+    IMAGEURL "/tmp/"
+      METADATA
+        "original_projection" "init=epsg:4326"
+        "original_extents"  "-180,-90,180,90"
+      END
+  END
+
+  LAYER
+    NAME "bmng"
+    GROUP "satellite"
+    CONNECTION "http://onearth.jpl.nasa.gov/wms.cgi?"
+    CONNECTIONTYPE WMS
+    STATUS ON
+    TYPE RASTER 
+    MINSCALE 1000000
+    METADATA
+      "wms_srs" "EPSG:4326"
+      "wms_onlineresource"  "http://onearth.jpl.nasa.gov/wms.cgi?"
+      "wms_name"  "BMNG"
+      "wms_style" "default"
+      "wms_format"  "image/png"
+      "wms_server_version"  "1.1.0"
+      "wms_title" "BMNG"
+    END
+  END
+
+  LAYER
+    NAME "modis"
+    CONNECTION "http://onearth.jpl.nasa.gov/wms.cgi?"
+    CONNECTIONTYPE WMS
+    STATUS OFF
+    TYPE RASTER 
+    MINSCALE 1000000
+    METADATA
+      "wms_srs" "EPSG:4326"
+      "wms_onlineresource"  "http://onearth.jpl.nasa.gov/wms.cgi?"
+      "wms_name"  "modis"
+      "wms_style" "default"
+      "wms_format"  "image/png"
+      "wms_server_version"  "1.1.0"
+      "wms_title" "modis"
+    END
+  END
+
+  LAYER
+    NAME "landsat"
+    GROUP "satellite"
+    CONNECTION "http://onearth.jpl.nasa.gov/wms.cgi?"
+    CONNECTIONTYPE WMS
+    STATUS ON
+    TYPE RASTER 
+    MAXSCALE 1000000
+    METADATA
+      "wms_srs" "EPSG:4326"
+      "wms_onlineresource"  "http://onearth.jpl.nasa.gov/wms.cgi?"
+      "wms_name"  "global_mosaic"
+      "wms_style"  "pseudo_bright"
+      "wms_format"  "image/png"
+      "wms_server_version"  "1.1.0"
+      "wms_title" "BMNG"
+    END
+  END
+
+END

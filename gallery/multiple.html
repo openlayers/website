@@ -1,0 +1,51 @@
+<html>
+<head>
+  <script src="http://maps.google.com/maps?file=api&amp;v=2&amp;key=ABQIAAAAjpkAC9ePGem0lIq5XcMiuhR_wWLPFku8Ix9i2SXYRVK3e45q1BQUd_beF8dtzKET_EteAjPdGDwqpQ" type="text/javascript"></script>
+  <script src="http://www.openlayers.org/api/2.3/OpenLayers.js"></script>
+  <script src="http://clients.multimap.com/API/maps/1.1/metacarta_04"></script>
+  <script src="http://api.maps.yahoo.com/ajaxymap?v=3.0&appid=euzuro-openlayers"></script>
+  <script src="http://dev.virtualearth.net/mapcontrol/v3/mapcontrol.js"></script>
+</head>
+<body>
+  <h1>OpenLayers: Multiple Providers </h1>
+  <p>With the click of a button, OpenLayers can change between a half dozen providers.</p> 
+
+  <div style="width:100%; height:80%" id="map"></div>
+
+  <script defer="defer" type="text/javascript">
+    OpenLayers.ProxyHost="/proxy/?url=";
+
+    var map = new OpenLayers.Map( 'map', {controls: [new OpenLayers.Control.PanZoomBar()]} );
+
+    map.addControl(new OpenLayers.Control.MouseToolbar());
+    map.addControl(new OpenLayers.Control.MousePosition());
+    map.addControl(new OpenLayers.Control.Permalink());
+
+    var layer_switcher = new OpenLayers.Control.LayerSwitcher();
+    map.addControl(layer_switcher);
+    layer_switcher.maximizeControl();
+
+    var mm = new OpenLayers.Layer.MultiMap( "MultiMap", {minZoomLevel: 1});
+    var wms = new OpenLayers.Layer.WMS( "OpenLayers WMS", "http://labs.metacarta.com/wms/vmap0", {layers: 'basic'} );
+    var jpl_wms = new OpenLayers.Layer.KaMap( "Satellite WMS (NASA)", "/world/index.php", {g: "satellite", map: "world"});
+    var google = new OpenLayers.Layer.Google("Google");
+    var googles = new OpenLayers.Layer.Google("Google Satellite", { 'type': G_SATELLITE_MAP });
+    var googleh = new OpenLayers.Layer.Google("Google Hybrid", { 'type': G_HYBRID_MAP });
+    var ve = new OpenLayers.Layer.VirtualEarth("VirtualEarth", {'minZoomLevel': 0});
+    var yahoo = new OpenLayers.Layer.Yahoo("Yahoo");
+    var georss = new OpenLayers.Layer.GeoRSS("Earthquakes (GeoRSS)", "http://earthquake.usgs.gov/eqcenter/recenteqsww/catalogs/eqs7day-M2.5.xml");
+
+    var markers = new OpenLayers.Layer.Markers("Markers");
+    markers.setVisibility(false);
+
+    map.addLayers([wms, jpl_wms, google, googles, googleh, ve, yahoo, markers, georss, mm]);
+
+    map.setCenter(new OpenLayers.LonLat(-71,42), 6);
+
+    map.events.register("click", map, function(e) {
+      markers.addMarker(new OpenLayers.Marker(this.getLonLatFromPixel(e.xy)));
+    });
+ 
+  </script>
+</body>
+</html>

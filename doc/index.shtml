@@ -1,0 +1,179 @@
+<!--#set var="title" value="Getting Started" -->
+<!--#include virtual="/include/head.html" -->
+  <script src="http://openlayers.org/dev/lib/OpenLayers.js"></script>
+  <script src="http://maps.google.com/maps?file=api&amp;v=2&amp;key=ABQIAAAAjpkAC9ePGem0lIq5XcMiuhR9x1oSmy2l6lpQn4Fwjw8XucNdcRTlgTn6soDriQjjLeXkEx6fjn1stg"
+        type="text/javascript"></script>
+<div id="main">
+<h1>Getting Started with OpenLayers</h1>
+
+<p>OpenLayers is a pure JavaScript library for displaying map data in most
+modern web browsers, with no server-side dependencies. OpenLayers implements a
+(still-developing) <a href="//trac.openlayers.org/wiki/Documentation">JavaScript
+API</a> for building rich web-based geographic applications, similar to the
+Google Maps and MSN Virtual Earth APIs, with one important difference --
+OpenLayers is Free Software, developed for and by the Open Source software
+community.</p>
+
+<p><a href="/doc/reference.html">Class Reference Documentation</a></p>
+
+<h2>Creating Your First Map</h2>
+
+<p>The OpenLayers API has two concepts which are important to understand in
+order to build your first map: 'Map', and 'Layer'. An OpenLayers Map
+stores information about the default projection, extents, units, and so
+on of the map. Inside the map, data is displayed via 'Layer's. A Layer
+is a data source -- information about how OpenLayers should request data
+and display it.</p>
+
+<h3>Crafting HTML</h3>
+
+<p>Building an OpenLayers viewer requires crafting HTML in which your
+viewer will be seen. OpenLayers supports putting a map inside of any
+block level element -- this means that it can be used to put a map in
+almost any HTML element on your page.</p>
+
+<p>In addition to a single block level element, it is also required to
+include a script tag which includes the OpenLayers library to the
+page.</p>
+
+<blockquote>
+<pre>&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;OpenLayers Example&lt;/title&gt;
+    &lt;script
+    src="http://openlayers.org/api/OpenLayers.js"&gt;&lt;/script&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+      &lt;div style="width:100%; height:100%" id="map"&gt;&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</pre>
+<b>Ex. 1:</b> Example of HTML for creating OpenLayers Map
+</blockquote>
+
+<h3>Creating the Map Viewer</h3>
+
+<p>In order to create the viewer, you must first create a map. The
+OpenLayers.Map constructor requires one argument: This argument must
+either be an HTML Element, or the ID of an HTML element. This is the
+element in which the map will be placed.</p>
+
+<blockquote><pre>var map = new OpenLayers.Map('map');</pre>
+<b>Ex. 2:</b> Map Constructor
+</blockquote>
+
+<p>The next step to creating a viewer is to add a layer to the Map.
+OpenLayers supports many different data sources, from WMS to Yahoo! Maps
+to WorldWind. In this example, the WMS layer is used. The WMS layer is
+an example provided by MetaCarta.</p>
+
+<blockquote><pre>var wms = new OpenLayers.Layer.WMS(
+  "http://labs.metacarta.com/wms/vmap0", 
+  {'layers':'basic'} );
+map.addLayer(wms);</pre>
+<b>Ex. 3:</b> Layer Constructor</blockquote>
+
+<p>The first parameter in this constructor is the URL of the WMS server.
+The second argument is an object containing the parameterss to be 
+appended to the WMS request.</p>
+
+<p>Finally, in order to display the map, you must set a center and zoom
+level. In order to zoom to fit the map into the window, you can use the
+zoomToMaxExtent function, which will zoom as close as possible while
+still fitting the full extents within the window.</p>
+
+<h3>Putting it All Together</h3>
+
+<p>The following code block puts all the pieces together to create an 
+OpenLayers viewer.</p>
+
+<blockquote>
+<pre>&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;OpenLayers Example&lt;/title&gt;
+    &lt;script
+    src="http://openlayers.org/api/OpenLayers.js"&gt;&lt;/script&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+      &lt;div style="width:100%; height:100%" id="map"&gt;&lt;/div&gt;
+      &lt;script defer="defer" type="text/javascript"&gt;
+        var map = new OpenLayers.Map('map');
+        var wms = new OpenLayers.Layer.WMS( "OpenLayers WMS", 
+            "http://labs.metacarta.com/wms/vmap0", {layers: 'basic'} );
+        map.addLayer(wms);
+        map.zoomToMaxExtent();
+      &lt;/script&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</pre>
+<b>Ex. 4:</b> Full HTML and Javascript for simple WMS browser
+</blockquote>
+<div id="wmsmap" style="width:500px;height:250px"></div>
+  <script defer="defer" type="text/javascript">
+    var map = new OpenLayers.Map('wmsmap', {'maxResolution': 'auto'});
+    var wms = new OpenLayers.Layer.WMS( "OpenLayers WMS", 
+        "http://labs.metacarta.com/wms/vmap0", {layers: 'basic'} );
+    map.addLayer(wms);
+    map.zoomToMaxExtent();
+  </script>
+
+<h2>Adding an Overlay WMS</h2>
+
+<p>WMS layers have the capability to be overlaid on top of other WMS layers in
+the same projection. There are several ways to mark a layer as an overlay,
+rather than a base layer. With WMS, the best way to do this is by setting the
+'transparent' parameter to 'true'. The example here uses a political borders
+WMS to demonstrate overlaying a transparent WMS:</p>
+
+<blockquote><pre>    var twms = new OpenLayers.Layer.WMS( "World Map", 
+        "http://world.freemap.in/cgi-bin/mapserv?", 
+        { map: '/www/freemap.in/world/map/factbooktrans.map', 
+          transparent: 'true', layers: 'factbook', 
+          format: 'png'} );
+    map.addLayer(twms);</pre>
+<b>Ex. 5:</b> How to add a transparent WMS overlay to your map.
+</blockquote>
+<div id="wmstmap" style="width:500px;height:250px"></div>
+  <script defer="defer" type="text/javascript">
+    var map = new OpenLayers.Map('wmstmap', {'maxResolution': 'auto'});
+    var wms = new OpenLayers.Layer.WMS( "OpenLayers WMS", 
+        "http://labs.metacarta.com/wms/vmap0", {layers: 'basic'} );
+    var twms = new OpenLayers.Layer.WMS( "World Map", 
+        "http://world.freemap.in/cgi-bin/mapserv?", 
+        { map: '/www/freemap.in/world/map/factbooktrans.map', 
+          transparent: 'true', layers: 'factbook', 
+          format: 'png'} );
+    map.addLayer(wms);
+    map.addLayer(twms);
+    map.zoomToMaxExtent();
+  </script>
+
+<h2>Using Google Maps</h2>
+
+<p>In order to create a Google Map inside the OpenLayers interface, you must
+first include the Google Maps script tag for your domain: this allows you to
+specify your Google Maps API key.</p>
+
+<blockquote><pre>  &lt;script src="http://maps.google.com/maps?file=api&amp;v=2&amp;key=YourKey"
+        type="text/javascript"&gt;&lt;/script&gt;</pre>
+<b>Ex. 6:</b> Example script URL for Google Maps</blockquote>
+
+<p>Once you have included your Google Maps script tag, you only need to add a
+new layer type to the map:</p>
+
+<blockquote>
+<pre>  var google = new OpenLayers.Google( "Google", { type: G_HYBRID_MAP } );
+  map.addLayer(google);</pre>
+<b>Ex. 7</b> Creating a Hybrid Map, and adding it to the map</blockquote>
+
+<div id="googlemap" style="width:500px;height:250px"></div>
+  <script defer="defer" type="text/javascript">
+    var map = new OpenLayers.Map('googlemap');
+    var google = new OpenLayers.Layer.Google( "Google", { type: G_HYBRID_MAP } );
+    map.addLayers([google]);
+    map.zoomToMaxExtent();
+  </script>
+
+<p>The default Google Map type is the road map. G_SATELLITE_MAP is also
+supported, in addition to G_HYBRID_MAP.</p>
+</div>
+<!--#include virtual="/include/foot.html" -->
