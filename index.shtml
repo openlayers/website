@@ -1,18 +1,30 @@
 <!--#set var="title" value="Home" -->
 <!--#include virtual="/include/head.html" -->
   <div id="main">
-    <div id="mapFrame">
-      <div id="map"></div>
+    <div id="mapFrame" style="margin-top:-30px">
+      <div style="margin:0px" id="map"></div>
       <div style="text-align:center"><b>Put an open map widget in any web page!</b></div>
       <div style="text-align:center">
         Double-click to zoom in, and drag to pan. Hold down the shift key
         and drag to zoom to a particular region.
       </div>
     </div>
-    <h3>Get OpenLayers Now</h3>
-    <p>
-    Latest stable release: <a href="/api/OpenLayers.js">Link to the hosted version</a> | <a href="/download/OpenLayers-2.3-rc1.tar.gz">OpenLayers-2.3-rc1.tar.gz</a> | <a href="http://trac.openlayers.org/wiki/Release/2.3/Notes">2.3 Release Notes</a> | <a href="/doc/reference.html">Class Documentation</a> |  <a href="/gallery/">See Screenshots</a> 
+
+    <h3>Get OpenLayers Now!!</h3>
+    Latest code:
+    <ul style="font-size:.9em;margin-top:0px;">
+    <li><a href="/api/OpenLayers.js">Link to the hosted version</a></li>
+    <li>2.5 (Stable): <a href="/download/OpenLayers-2.5.tar.gz">.tar.gz</a> | <a href="/download/OpenLayers-2.5.zip">.zip</a></li>
+    <li><a href="http://trac.openlayers.org/wiki/Release/2.5/Notes">2.5 Release Notes</a></li>
+    <li><a href="http://dev.openlayers.org/docs/">Class Documentation</a></li>
+    <li><a href="/gallery/">See Screenshots</a></li>
+    </ul>
     </p>
+    <!--
+    <h2>OpenLayers Competition!</h2>
+    <p> Read about the <a href="http://labs.metacarta.com/on-a-stick/">MetaCarta Labs On A Stick</a>  <a href="http://trac.openlayers.org/wiki/Competition">OpenLayers Competition</a>  
+-->
+
 <!--   <p><b>FOSS4G</b>: Was the FOSS4G presentation too early for you this morning? The presentation is <a href="http://openlayers.org/presentations/foss4g2006/openlayers.odp">available in Open Office Impress format</a>, and the examples are <a href="http://openlayers.org/presentations/foss4g2006/examples/">available as well</a>.</p> --> 
     <h3>About...</h3>
     <p>OpenLayers makes it easy to put a dynamic map in any web page.  It can
@@ -22,18 +34,6 @@ OpenLayers and gave it to the public to further the use of geographic
 information of all kinds.  OpenLayers is 
 completely free, Open Source JavaScript, released under the BSD License.</p>
 
-    <h3>Put a map in your page.</h3>
-    <p>We've released a Map Viewer Service that lets you put a map in your page easily.  Just put this HTML in your page:</p>
-    <pre>
-      &lt;iframe src="http://openlayers.org/viewer/"
-        width="400px" height="200px"
-        scrolling="no"
-        marginwidth="0" marginheight="0"
-        frameborder="0"&gt;
-      &lt;/iframe&gt;</pre>
-
-<p>Read more examples in the <a href="QuickTutorial">20-second tutorial</a>.  The visual appearance of the MapViewer is not yet stable.  If you like it, please join the <a href="/mailman/listinfo">email list</a> and tell us about your use.</p>
-
     <h3>For Developers!</h3>
 <p>OpenLayers is a pure JavaScript library for displaying map data in most
 modern web browsers, with no server-side dependencies. OpenLayers implements a
@@ -42,6 +42,10 @@ API</a> for building rich web-based geographic applications, similar to the
 Google Maps and MSN Virtual Earth APIs, with one important difference --
 OpenLayers is Free Software, developed for and by the Open Source software
 community.</p>
+<div style="float:right; width:210px; margin:-10px 0px 0px 15px; padding-top:0px;">
+ <a href="http://www.osgeo.org/"><img src="/OSGeo_wTag.png" border="0px" /></a>
+ <p>OpenLayers is becoming a project of the <a href="http://www.osgeo.org/">Open Source Geospatial Foundation</a>.</p>
+</div>
 
 <p>Furthermore, OpenLayers implements industry-standard methods for geographic
 data access, such as the OpenGIS Consortium's Web Mapping Service (WMS) and Web
@@ -59,7 +63,7 @@ separation breaks the proprietary silos that earlier GIS revolutions have
 taught civilization to avoid.  The mapping revolution on the public Web should
 benefit from the experience of history.</p>
 
-    <h3>Getting the Code</h3>
+ <h3>Getting the Code</h3>
 
 <p>Releases are made available on the <a href="/download/">downloads</a> page.
 Additionally, if you wish to use OpenLayers in a web application, you can 
@@ -85,7 +89,7 @@ of the examples to get an idea how the OpenLayers library is used.</p>
 in the next few weeks and months. We need your support! Please check the <a
 href="//trac.openlayers.org">wiki</a> for the very latest updates and
 documentation, and thank you for taking an interest.</p> 
-  <script type="text/javascript" src="/api/OpenLayers.js"></script>
+  <script type="text/javascript" src="/api/2.5/OpenLayers.js"></script>
   <script type="text/javascript">
         <!--
             var map = new OpenLayers.Map('map', {'maxResolution': 1.40625/2});
@@ -102,6 +106,18 @@ documentation, and thank you for taking an interest.</p>
                  transparent: "true", format: "image/png" });
 
             dm_wms.setVisibility(false);
+
+/*
+            var options = {numZoomLevels: 3, isBaseLayer: true};
+            
+            var graphic = new OpenLayers.Layer.Image(
+                                'Happy Thanksgiving',
+                                "http://www.bigode.com/uzureau/Turkey.jpg",
+                                new OpenLayers.Bounds(-150, -90, 160, 100),
+                                new OpenLayers.Size(580, 288),
+                                options);
+            map.addLayer(graphic);
+*/
 
             map.addLayers([ol_wms, jpl_wms, dm_wms]);
             map.addControl(new OpenLayers.Control.LayerSwitcher());
