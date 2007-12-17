@@ -20,7 +20,7 @@ if os.environ['REQUEST_METHOD'] == "POST":
         data.close()
         f.write("http://openlayers.org/test/%s\n" % filename)
         message = []
-        message.append("From: crschmidt@metacarta.com\r\nTo: EMAIL_TO\r\nSubject: OpenLayers Test Failure: %s\r\n" % fs['results'].value)
+        message.append("From: crschmidt@metacarta.com\r\nTo: %s\r\nSubject: OpenLayers Test Failure: %s\r\n" % (EMAIL_TO, fs['results'].value))
         message.append("Results: %s" % fs['results'].value)
         message.append("URL: http://openlayers.org/test/%s" % filename)
         message.append("User-Agent: %s" % os.environ['HTTP_USER_AGENT'])
