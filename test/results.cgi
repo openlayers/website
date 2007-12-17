@@ -5,7 +5,7 @@ import os
 import time
 import smtplib
 
-EMAIL_TO = "crschmidt@metacarta.com"
+EMAIL_TO = "autotest@openlayers.org"
 LOCAL_DIR = "/www/openlayers/docs/test/"
 
 fs = cgi.FieldStorage()
@@ -25,7 +25,7 @@ if os.environ['REQUEST_METHOD'] == "POST":
         message.append("URL: http://openlayers.org/test/%s" % filename)
         message.append("User-Agent: %s" % os.environ['HTTP_USER_AGENT'])
         s = smtplib.SMTP("smtp.metacarta.com")
-        s.sendmail("crschmidt@metacarta.com", "crschmidt@metacarta.com", "\n".join(message))
+        s.sendmail("crschmidt@metacarta.com", EMAIL_TO, "\n".join(message))
     f.write("\n")    
     f.close()
 f = open(os.path.join(LOCAL_DIR, "test.log"), "r")
