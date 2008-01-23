@@ -16,7 +16,7 @@
     <li><a href="/api/OpenLayers.js">Link to the hosted version</a></li>
     <li>2.5 (Stable): <a href="/download/OpenLayers-2.5.tar.gz">.tar.gz</a> | <a href="/download/OpenLayers-2.5.zip">.zip</a></li>
     <li><a href="http://trac.openlayers.org/wiki/Release/2.5/Notes">2.5 Release Notes</a></li>
-    <li><a href="http://dev.openlayers.org/docs/">Class Documentation</a></li>
+    <li><a href="http://dev.openlayers.org/apidocs/">Class Documentation</a></li>
     <li><a href="/gallery/">See Screenshots</a></li>
     <li><a href="/dev/doc/examples.html">See examples</a> of OpenLayers Usage</a></li>
     </ul>
