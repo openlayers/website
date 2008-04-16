@@ -14,19 +14,13 @@
     Latest code:
     <ul style="font-size:.9em;margin-top:0px;">
     <li><a href="/api/OpenLayers.js">Link to the hosted version</a></li>
-    <li>2.5 (Stable): <a href="/download/OpenLayers-2.5.tar.gz">.tar.gz</a> | <a href="/download/OpenLayers-2.5.zip">.zip</a></li>
-    <li><a href="http://trac.openlayers.org/wiki/Release/2.5/Notes">2.5 Release Notes</a></li>
-    <li><a href="http://dev.openlayers.org/apidocs/">Class Documentation</a></li>
+    <li>2.6 (Stable): <a href="/download/OpenLayers-2.6.tar.gz">.tar.gz</a> | <a href="/download/OpenLayers-2.6.zip">.zip</a></li>
+    <li><a href="http://trac.openlayers.org/wiki/Release/2.6/Notes">2.6 Release Notes</a></li>
+    <li><a href="http://dev.openlayers.org/releases/OpenLayers-2.6/doc/apidocs/files/OpenLayers-js.html">Class Documentation</a>, <a href="http://trac.openlayers.org/wiki/Documentation">More documentation</a></li>
     <li><a href="/gallery/">See Screenshots</a></li>
     <li><a href="/dev/doc/examples.html">See examples</a> of OpenLayers Usage</a></li>
     </ul>
     </p>
-    <!--
-    <h2>OpenLayers Competition!</h2>
-    <p> Read about the <a href="http://labs.metacarta.com/on-a-stick/">MetaCarta Labs On A Stick</a>  <a href="http://trac.openlayers.org/wiki/Competition">OpenLayers Competition</a>  
--->
-
-<!--   <p><b>FOSS4G</b>: Was the FOSS4G presentation too early for you this morning? The presentation is <a href="http://openlayers.org/presentations/foss4g2006/openlayers.odp">available in Open Office Impress format</a>, and the examples are <a href="http://openlayers.org/presentations/foss4g2006/examples/">available as well</a>.</p> --> 
     <h3>About...</h3>
     <p>OpenLayers makes it easy to put a dynamic map in any web page.  It can
 display map tiles and markers loaded from any source.    <a
@@ -90,7 +84,7 @@ of the examples to get an idea how the OpenLayers library is used.</p>
 in the next few weeks and months. We need your support! Please check the <a
 href="//trac.openlayers.org">wiki</a> for the very latest updates and
 documentation, and thank you for taking an interest.</p> 
-  <script type="text/javascript" src="/api/2.5/OpenLayers.js"></script>
+  <script type="text/javascript" src="/api/OpenLayers.js"></script>
   <script type="text/javascript">
         <!--
             var map = new OpenLayers.Map('map', {'maxResolution': 1.40625/2});
