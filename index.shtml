@@ -27,7 +27,7 @@ display map tiles and markers loaded from any source.    <a
 href="http://www.metacarta.com/">MetaCarta</a> developed the initial version of
 OpenLayers and gave it to the public to further the use of geographic
 information of all kinds.  OpenLayers is 
-completely free, Open Source JavaScript, released under the BSD License.</p>
+completely free, Open Source JavaScript, released under <a href="http://svn.openlayers.org/trunk/openlayers/license.txt">a BSD-style License</a>.</p>
 
     <h3>For Developers!</h3>
 <p>OpenLayers is a pure JavaScript library for displaying map data in most
