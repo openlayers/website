@@ -14,7 +14,7 @@ Google Maps and MSN Virtual Earth APIs, with one important difference --
 OpenLayers is Free Software, developed for and by the Open Source software
 community.</p>
 
-<p><a href="http://dev.openlayers.org/docs/overview-tree.html">Class Reference Documentation</a></p>
+<p><a href="http://dev.openlayers.org/apidocs/">Class Reference Documentation</a></p>
 
 <h2>Creating Your First Map</h2>
 
@@ -161,7 +161,7 @@ specify your Google Maps API key.</p>
 new layer type to the map:</p>
 
 <blockquote>
-<pre>  var google = new OpenLayers.Google( "Google", { type: G_HYBRID_MAP } );
+<pre>  var google = new OpenLayers.Layer.Google( "Google", { type: G_HYBRID_MAP } );
   map.addLayer(google);</pre>
 <b>Ex. 7</b> Creating a Hybrid Map, and adding it to the map</blockquote>
 
