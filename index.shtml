@@ -1,4 +1,4 @@
-<!--#set var="title" value="Home" -->
+d <!--#set var="title" value="Home" -->
 <!--#include virtual="/include/head.html" -->
   <div id="main">
     <div id="mapFrame" style="margin-top:-30px">
@@ -10,9 +10,9 @@
       </div>
     </div>
 
-    <a href="http://trac.openlayers.org/wiki/FOSS4G2008">
+    <a href="http://trac.openlayers.org/wiki/Release/2.7/Notes">
         <h2>
-            OpenLayers at FOSS4G 2008 in Cape Town, South Africa!
+            OpenLayers Announces 2.7 Release!
         </h2>
     </a>
 
@@ -20,9 +20,9 @@
     Latest code:
     <ul style="font-size:.9em;margin-top:0px;">
     <li><a href="/api/OpenLayers.js">Link to the hosted version</a></li>
-    <li>2.6 (Stable): <a href="/download/OpenLayers-2.6.tar.gz">.tar.gz</a> | <a href="/download/OpenLayers-2.6.zip">.zip</a></li>
-    <li><a href="http://trac.openlayers.org/wiki/Release/2.6/Notes">2.6 Release Notes</a></li>
-    <li><a href="http://dev.openlayers.org/releases/OpenLayers-2.6/doc/apidocs/files/OpenLayers-js.html">Class Documentation</a>, <a href="http://trac.openlayers.org/wiki/Documentation">More documentation</a></li>
+    <li>2.7 (Stable): <a href="/download/OpenLayers-2.7.tar.gz">.tar.gz</a> | <a href="/download/OpenLayers-2.7.zip">.zip</a></li>
+    <li><a href="http://trac.openlayers.org/wiki/Release/2.7/Notes">2.7 Release Notes</a></li>
+    <li><a href="http://dev.openlayers.org/releases/OpenLayers-2.7/doc/apidocs/files/OpenLayers-js.html">Class Documentation</a>, <a href="http://trac.openlayers.org/wiki/Documentation">More documentation</a></li>
     <li><a href="http://gallery.openlayers.org/">See Screenshots</a></li>
     <li><a href="/dev/examples/example-list.html">See examples</a> of OpenLayers Usage</a></li>
     </ul>
