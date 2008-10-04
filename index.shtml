@@ -1,4 +1,4 @@
-d <!--#set var="title" value="Home" -->
+<!--#set var="title" value="Home" -->
 <!--#include virtual="/include/head.html" -->
   <div id="main">
     <div id="mapFrame" style="margin-top:-30px">
