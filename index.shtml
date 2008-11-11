@@ -44,8 +44,8 @@ Google Maps and MSN Virtual Earth APIs, with one important difference --
 OpenLayers is Free Software, developed for and by the Open Source software
 community.</p>
 <div style="float:right; width:210px; margin:-10px 0px 0px 15px; padding-top:0px;">
- <a href="http://www.osgeo.org/"><img src="/OSGeo_wTag.png" border="0px" /></a>
- <p>OpenLayers is becoming a project of the <a href="http://www.osgeo.org/">Open Source Geospatial Foundation</a>.</p>
+ <a href="http://www.osgeo.org/"><img src="/images/osgeo_sm.png" border="0px; text-decoration:none" /></a>
+ <p>OpenLayers is a project of the <a href="http://www.osgeo.org/">Open Source Geospatial Foundation</a>.</p>
 </div>
 
 <p>Furthermore, OpenLayers implements industry-standard methods for geographic
