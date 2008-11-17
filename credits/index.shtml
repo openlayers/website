@@ -1,0 +1,23 @@
+<!--#set var="title" value="Home" -->
+<!--#include virtual="/include/head.html" -->
+  <div id="main">
+  <h1>Credits</h1>
+  <p>OpenLayers is thankful to many contributors -- too many to thank individually.
+  This page seeks to list major individuals and organizations who have helped 
+  out the OpenLayers project over the years.</p>
+  
+  <h3><a name="sponsors">Sponsors</a></h3> 
+   <p>
+   If you are interested in sponsoring OpenLayers, please read our <a href="/sponsorship/">sponsorship documents</a>.   
+   </p>
+  <h3><a name="corporate">Corporate</a></h3> 
+  <ul>
+   <li><a href="http://www.camptocamp.com/">Camptocamp</a>: Supports project with several development resources.</li> 
+   <li><a href="http://www.dmsolutions.ca/">DM Solutions</a>: Supports project with several development resources, especially related to proj4js and MapGuide support. Participates within the PSC.</li> 
+   <li><a href="http://www.houstonengineeringinc.com/">Houston Engineering</a>: Funded initial vector layer integration.</li>  
+   <li><a href="http://www.lisasoft.com/">LISAsoft</a>: Provided initial vector support development. Participates within the PSC.</li> 
+   <li><a href="http://www.opengeo.org/">OpenGeo</a>: Supports project with development resources. Has co-sponsored two code sprint events. Participates in PSC.</li>
+   <li><a href="http://www.metacarta.com/">MetaCarta</a>: Founded project, and supports project with continuing hosting and development resources. Has co-sponsored two code sprint events. Participates in PSC.</li>
+  </ul>
+  </div>
+<!--#include virtual="/include/foot.html" -->
