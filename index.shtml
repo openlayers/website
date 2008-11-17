@@ -35,6 +35,13 @@ OpenLayers and gave it to the public to further the use of geographic
 information of all kinds.  OpenLayers is 
 completely free, Open Source JavaScript, released under <a href="http://svn.openlayers.org/trunk/openlayers/license.txt">a BSD-style License</a>.</p>
 
+    <h3>Supporting OpenLayers</h3>
+    <p>OpenLayers is developed and supported by a number of organizations 
+       around the world. We are also looking for 
+       <a href="/sponsorship/">sponsors</a> to help support the community.
+       If you are in a position where you want to support the development
+       of OpenLayers, but do not have development resources to share, you
+       may be interested in supporting through our sponsorship program.</p> 
     <h3>For Developers!</h3>
 <p>OpenLayers is a pure JavaScript library for displaying map data in most
 modern web browsers, with no server-side dependencies. OpenLayers implements a
