@@ -1,10 +1,39 @@
   <div id="sidebar"></div>
   <div id="footer"></div>
-<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
-</script>
-<script type="text/javascript">
-_uacct = "UA-2577926-1";
-urchinTracker();
-</script>
+    <script type="text/javascript">
+        document.write(unescape("%3Cscript src='http://www.google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+    (function() {
+        try {
+            var pageTracker = _gat._getTracker("UA-2577926-1");
+            pageTracker._trackPageview();
+        } catch(err) {
+            // pass
+        }
+        // track downloads - tracks all clicks to links with download href
+        var anchors, a, i, len, match,
+            pattern = /^(http:\/\/openlayers.org)?\/download\/(.*)$/;
+        function clickHandler(name) {
+            return function() {
+                try {
+                    pageTracker._trackPageview(name);
+                } catch(err) {
+                    // pass
+                }
+            };
+        }
+        anchors = document.getElementsByTagName("a");
+        for(i=0, len=anchors.length; i<len; ++i) {
+            a = anchors[i];
+            if(a.href) {
+                match = a.href.match(pattern);
+                if(match && match[2]) {
+                    a.onclick = clickHandler("/download/" + match[2]);
+                }
+            }
+        }
+    })();
+    </script>
   </body>
 </html>
