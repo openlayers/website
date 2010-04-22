@@ -10,21 +10,19 @@
       </div>
     </div>
 
-    <a href="http://trac.openlayers.org/wiki/Release/2.7/Notes">
         <h2>
-            OpenLayers Announces 2.7 Release!
+            OpenLayers: Free Maps for the Web
         </h2>
-    </a>
 
     <h3>Get OpenLayers Now!!</h3>
     Latest code:
     <ul style="font-size:.9em;margin-top:0px;">
     <li><a href="/api/OpenLayers.js">Link to the hosted version</a></li>
-    <li>2.7 (Stable): <a href="/download/OpenLayers-2.7.tar.gz">.tar.gz</a> | <a href="/download/OpenLayers-2.7.zip">.zip</a></li>
-    <li><a href="http://trac.openlayers.org/wiki/Release/2.7/Notes">2.7 Release Notes</a></li>
-    <li><a href="http://dev.openlayers.org/releases/OpenLayers-2.7/doc/apidocs/files/OpenLayers-js.html">Class Documentation</a>, <a href="http://trac.openlayers.org/wiki/Documentation">More documentation</a></li>
+    <li>2.9 (Stable): <a href="/download/OpenLayers-2.9.tar.gz">.tar.gz</a> | <a href="/download/OpenLayers-2.9.zip">.zip</a></li>
+    <li><a href="http://trac.openlayers.org/wiki/Release/2.9/Notes">2.9 Release Notes</a></li>
+    <li><a href="http://dev.openlayers.org/releases/OpenLayers-2.9/doc/apidocs/files/OpenLayers-js.html">Class Documentation</a>, <a href="http://trac.openlayers.org/wiki/Documentation">More documentation</a></li>
     <li><a href="http://gallery.openlayers.org/">See Screenshots</a></li>
-    <li><a href="/dev/examples/example-list.html">See examples</a> of OpenLayers Usage</a></li>
+    <li>See examples of OpenLayers Usage: <a href="http://dev.openlayers.org/releases/OpenLayers-2.9/examples/">Release Examples (2.9)</a>, <a href="/dev/examples/">Development Examples (trunk)</a></li>
     </ul>
     </p>
     <h3>About...</h3>
@@ -121,17 +119,6 @@ documentation, and thank you for taking an interest.</p>
 
             dm_wms.setVisibility(false);
 
-/*
-            var options = {numZoomLevels: 3, isBaseLayer: true};
-            
-            var graphic = new OpenLayers.Layer.Image(
-                                'Happy Thanksgiving',
-                                "http://www.bigode.com/uzureau/Turkey.jpg",
-                                new OpenLayers.Bounds(-150, -90, 160, 100),
-                                new OpenLayers.Size(580, 288),
-                                options);
-            map.addLayer(graphic);
-*/
 
             map.addLayers([ol_wms, jpl_wms, dm_wms]);
             map.addControl(new OpenLayers.Control.LayerSwitcher());
