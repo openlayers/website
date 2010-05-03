@@ -21,7 +21,6 @@
     <li>2.9 (Stable): <a href="/download/OpenLayers-2.9.tar.gz">.tar.gz</a> | <a href="/download/OpenLayers-2.9.zip">.zip</a></li>
     <li><a href="http://trac.openlayers.org/wiki/Release/2.9/Notes">2.9 Release Notes</a></li>
     <li><a href="http://dev.openlayers.org/releases/OpenLayers-2.9/doc/apidocs/files/OpenLayers-js.html">Class Documentation</a>, <a href="http://trac.openlayers.org/wiki/Documentation">More documentation</a></li>
-    <li><a href="http://gallery.openlayers.org/">See Screenshots</a></li>
     <li>See examples of OpenLayers Usage: <a href="http://dev.openlayers.org/releases/OpenLayers-2.9/examples/">Release Examples (2.9)</a>, <a href="/dev/examples/">Development Examples (trunk)</a></li>
     </ul>
     </p>
