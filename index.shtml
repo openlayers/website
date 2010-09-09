@@ -18,19 +18,17 @@
     Latest code:
     <ul style="font-size:.9em;margin-top:0px;">
     <li><a href="/api/OpenLayers.js">Link to the hosted version</a></li>
-    <li>2.9.1 (Stable): <a href="/download/OpenLayers-2.9.1.tar.gz">.tar.gz</a> | <a href="/download/OpenLayers-2.9.1.zip">.zip</a></li>
-    <li><a href="http://trac.openlayers.org/wiki/Release/2.9.1/Notes">2.9.1 Release Notes</a></li>
-    <li><a href="http://dev.openlayers.org/releases/OpenLayers-2.9.1/doc/apidocs/files/OpenLayers-js.html">Class Documentation</a>, <a href="http://trac.openlayers.org/wiki/Documentation">More documentation</a></li>
-    <li>See examples of OpenLayers Usage: <a href="http://dev.openlayers.org/releases/OpenLayers-2.9.1/examples/">Release Examples (2.9.1)</a>, <a href="/dev/examples/">Development Examples (trunk)</a></li>
+    <li>2.10 (Stable): <a href="/download/OpenLayers-2.10.tar.gz">.tar.gz</a> | <a href="/download/OpenLayers-2.10.zip">.zip</a></li>
+    <li><a href="http://trac.openlayers.org/wiki/Release/2.10/Notes">2.10 Release Notes</a></li>
+    <li><a href="http://dev.openlayers.org/releases/OpenLayers-2.10/doc/apidocs/files/OpenLayers-js.html">Class Documentation</a>, <a href="http://trac.openlayers.org/wiki/Documentation">More documentation</a></li>
+    <li>See examples of OpenLayers Usage: <a href="http://dev.openlayers.org/releases/OpenLayers-2.10/examples/">Release Examples (2.10)</a>, <a href="/dev/examples/">Development Examples (trunk)</a></li>
     </ul>
     </p>
     <h3>About...</h3>
     <p>OpenLayers makes it easy to put a dynamic map in any web page.  It can
-display map tiles and markers loaded from any source.    <a
-href="http://www.metacarta.com/">MetaCarta</a> developed the initial version of
-OpenLayers and gave it to the public to further the use of geographic
+display map tiles and markers loaded from any source.    OpenLayers has been developed to further the use of geographic
 information of all kinds.  OpenLayers is 
-completely free, Open Source JavaScript, released under <a href="http://svn.openlayers.org/trunk/openlayers/license.txt">a BSD-style License</a>.</p>
+completely free, Open Source JavaScript, released under <a href="http://svn.openlayers.org/trunk/openlayers/license.txt">a BSD-style License</a> (also known as the Clear BSD).</p>
 
     <h3>Supporting OpenLayers</h3>
     <p>OpenLayers is developed and supported by a number of organizations 
