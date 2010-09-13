@@ -1,9 +1,9 @@
-OpenLayers Individual Contributor License Agreement ("Agreement") v1.0
+OpenLayers Individual Contributor License Agreement ("Agreement") v1.1
 http://www.openlayers.org/icla.txt
 
 Thank you for your interest in the OpenLayers project, which is
-presently maintained by MetaCarta, Inc. (the "Maintainer").  In order
-to clarify the intellectual property license granted with
+presently maintained by the OSGeo Foundation. (the "Maintainer").  In
+order to clarify the intellectual property license granted with
 Contributions from any person or entity, the Maintainer must have a
 Contributor License Agreement ("CLA") on file that has been signed by
 each Contributor, indicating agreement to the license terms below.
@@ -11,18 +11,19 @@ This license is for your protection as a Contributor as well as the
 protection of the OpenLayers project and its users; it does not change
 your rights to use your own Contributions for any other purpose.  
 
-If you have not already done so, please complete and send an original
-signed Agreement to:
+If you have not already done so, please complete and send an Agreement to:
 
-   OpenLayers care of MetaCarta
-   350 Massachusetts Avenue
-   Suite #450
-   Cambridge, MA 02139
-   U.S.A.
+    openlayers-cla < at > openlayers.org
 
-The signed Agreement may also be sent by facsimile to the Maintainer at:
+You can also send a signed agreement via postal mail to: 
 
-   Attn: OpenLayers   617-663-6382
+    OpenLayers CLA c/o OSGeo 
+    PO Box 4844
+    Williams Lake
+    British Columbia, Canada, V2G 2V8
+
+If you can not sign this document before e-mailing it (via scanning or
+other means), please type "I AGREE" into the signature line instead.
 
 Please read this document carefully before signing and keep a copy for
 your records.

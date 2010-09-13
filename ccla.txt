@@ -2,7 +2,7 @@ OpenLayers Corporate Contributor License Agreement ("Agreement") v1.0
 http://www.openlayers.org/ccla.txt
 
 Thank you for your interest in the OpenLayers project, which is
-presently maintained by MetaCarta, Inc. (the "Maintainer"). In order
+presently maintained by the OSGeo Foundation (the "Maintainer"). In order
 to clarify the intellectual property license granted with
 Contributions from any person or entity, the Maintainer must have a
 Contributor License Agreement (CLA) on file that has been signed by
@@ -19,15 +19,13 @@ copyright and patent licenses thereto.
 If you have not already done so, please complete and send an original
 signed Agreement to:
 
-   OpenLayers care of MetaCarta
-   350 Massachusetts Avenue
-   Suite #450
-   Cambridge, MA 02139
-   U.S.A.
+    OpenLayers CLA c/o OSGeo 
+    PO Box 4844
+    Williams Lake
+    British Columbia, Canada, V2G 2V8
 
-The signed Agreement may also be sent by facsimile to the Maintainer at:
-
-   Attn: OpenLayers   617-663-6382
+The signed Agreement may also be sent by facsimile if neccesary. Please
+contact the OpenLayers developers for assistance if this is neccesary.
 
 Please read this document carefully before signing and keep a copy for
 your records.
