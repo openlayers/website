@@ -13,7 +13,7 @@ your rights to use your own Contributions for any other purpose.
 
 If you have not already done so, please complete and send an Agreement to:
 
-    openlayers-cla < at > openlayers.org
+    openlayers-cla < at > lists.osgeo.org
 
 You can also send a signed agreement via postal mail to: 
 
