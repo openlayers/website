@@ -24,8 +24,8 @@ signed Agreement to:
     Williams Lake
     British Columbia, Canada, V2G 2V8
 
-The signed Agreement may also be sent by facsimile if neccesary. Please
-contact the OpenLayers developers for assistance if this is neccesary.
+The signed Agreement may also be sent by facsimile if necessary. Please
+contact the OpenLayers developers for assistance if this is necessary.
 
 Please read this document carefully before signing and keep a copy for
 your records.
