@@ -65,21 +65,11 @@ completely free, Open Source JavaScript, released under <a href="http://svn.open
     <h3>For Developers!</h3>
 <p>OpenLayers is a pure JavaScript library for displaying map data in most
 modern web browsers, with no server-side dependencies. OpenLayers implements a
-(still-developing) <a href="//trac.openlayers.org/wiki/Documentation">JavaScript
+<a href="//trac.openlayers.org/wiki/Documentation">JavaScript
 API</a> for building rich web-based geographic applications, similar to the
 Google Maps and MSN Virtual Earth APIs, with one important difference --
 OpenLayers is Free Software, developed for and by the Open Source software
 community.</p>
-
-<p>Furthermore, OpenLayers implements industry-standard methods for geographic
-data access, such as the OpenGIS Consortium's Web Mapping Service (WMS) and Web
-Feature Service (WFS) protocols. Under the hood, OpenLayers is written in
-object-oriented JavaScript, using components from <a
-href="//prototype.conio.net/">Prototype.js</a> and the <a
-href="//openrico.org/">Rico</a> library. The OpenLayers code base already has
-hundreds of <a href="/dev/tests/run-tests.html">unit tests</a>, via the <a
-href="http://straytree.com/TestAnotherWay/doc/index.html">Test.AnotherWay</a> 
-framework.</p>
 
 <p>As a framework, OpenLayers is intended to separate map <i>tools</i> from map
 <i>data</i> so that all the tools can operate on all the data sources.  This
