@@ -9,13 +9,38 @@
         and drag to zoom to a particular region.
       </div>
     </div>
+    <div id="side-panel" class="cleared">
+        <div id="publications">
+            <h3>Books about OpenLayers</h3>
+            <ul>
+                <li>
+                    <a href="https://www.packtpub.com/openlayers-2-1-javascript-web-mapping-library-beginners-guide/book"><img src="https://www.packtpub.com/sites/default/files/imagecache/productview/4125OS_OpenLayers%202.10%20Beginner%27s%20Guidecov_0.jpg"></a>
+                    <a href="https://www.packtpub.com/openlayers-2-1-javascript-web-mapping-library-beginners-guide/book">OpenLayers 2.10 Beginner's Guide</a><div class="author">Erik Hazzard</div>Available in Print and eBook formats from <a href="https://www.packtpub.com/openlayers-2-1-javascript-web-mapping-library-beginners-guide/book">Packt Publishing</a>.
+                </li>
+                <li>
+                    <a href="https://www.opensourcepress.de/index.php?26&backPID=178&tt_products=287"><img src="https://www.opensourcepress.de/typo3temp/pics/acf15740f4.png"></a>
+                    <a href="https://www.opensourcepress.de/index.php?26&backPID=178&tt_products=287">OpenLayers (in German)</a><div class="author">Till Adams &amp; Marc Jansen</div>Available from <a href="https://www.opensourcepress.de/index.php?26&backPID=178&tt_products=287">Open Source Press</a>.  Examples <a href="http://openlayers-buch.de/">available online</a>.
+                </li>
+            </ul>
+        </div>
+        <div class="cleared spaced">
+            <a href="http://www.osgeo.org/" class="centered"><img src="/images/osgeo_sm.png"></a>
+            <p>OpenLayers is a project of the <a href="http://www.osgeo.org/">Open Source Geospatial Foundation</a>.</p>
+            <p>Visit our <a href="sponsorship/">sponsorship page</a> to find out how you can become an OpenLayers sponsor.  Or use the donation button below to contribute any amount today.</p>
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                <input type="hidden" name="cmd" value="_s-xclick">
+                <input type="hidden" name="hosted_button_id" value="CQJDSQUTFFSVW">
+                <div class="centered"><input type="image" src="/images/donate.gif" border="0" name="submit" alt="Donate with PayPal"></div>
+                <img alt="" border="0" src="https://www.paypalobjects.com/WEBSCR-640-20110429-1/en_US/i/scr/pixel.gif" width="1" height="1">
+            </form>
+        </div>
+    </div>
 
         <h2>
             OpenLayers: Free Maps for the Web
         </h2>
 
     <h3>Get OpenLayers Now!!</h3>
-    Latest code:
     <ul style="font-size:.9em;margin-top:0px;">
     <li><a href="/api/OpenLayers.js">Link to the hosted version</a></li>
     <li>2.10 (Stable): <a href="/download/OpenLayers-2.10.tar.gz">.tar.gz</a> | <a href="/download/OpenLayers-2.10.zip">.zip</a></li>
@@ -45,10 +70,6 @@ API</a> for building rich web-based geographic applications, similar to the
 Google Maps and MSN Virtual Earth APIs, with one important difference --
 OpenLayers is Free Software, developed for and by the Open Source software
 community.</p>
-<div style="float:right; width:210px; margin:-10px 0px 0px 15px; padding-top:0px;">
- <a href="http://www.osgeo.org/"><img src="/images/osgeo_sm.png" border="0px; text-decoration:none" /></a>
- <p>OpenLayers is a project of the <a href="http://www.osgeo.org/">Open Source Geospatial Foundation</a>.</p>
-</div>
 
 <p>Furthermore, OpenLayers implements industry-standard methods for geographic
 data access, such as the OpenGIS Consortium's Web Mapping Service (WMS) and Web
@@ -70,10 +91,8 @@ benefit from the experience of history.</p>
 
 <p>Releases are made available on the <a href="/download/">downloads</a> page.
 Additionally, if you wish to use OpenLayers in a web application, you can 
-include 
-  <tt>
-    <a href="http://www.openlayers.org/api/OpenLayers.js">http://www.openlayers.org/api/OpenLayers.js</a>
-   </tt> in your page, to always get the latest release.</p>
+include <a href="http://www.openlayers.org/api/OpenLayers.js"><code>&lt;script src="http://www.openlayers.org/api/OpenLayers.js"&gt;&lt;/scrip&gt;</code></a>
+in your page, to always get the latest release.</p>
 
 <p> The code is also available in our
 <a href="//trac.openlayers.org/wiki/HowToDownload">Subversion repository</a>.
