@@ -81,7 +81,7 @@ benefit from the experience of history.</p>
 
 <p>Releases are made available on the <a href="/download/">downloads</a> page.
 Additionally, if you wish to use OpenLayers in a web application, you can 
-include <a href="http://www.openlayers.org/api/OpenLayers.js"><code>&lt;script src="http://www.openlayers.org/api/OpenLayers.js"&gt;&lt;/scrip&gt;</code></a>
+include <a href="http://www.openlayers.org/api/OpenLayers.js"><code>&lt;script src="http://www.openlayers.org/api/OpenLayers.js"&gt;&lt;/script&gt;</code></a>
 in your page, to always get the latest release.</p>
 
 <p> The code is also available in our
