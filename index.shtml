@@ -78,12 +78,7 @@ benefit from the experience of history.</p>
 
  <h3>Getting the Code</h3>
 
-<p>Releases are made available on the <a href="/download/">downloads</a> page.
-Additionally, if you wish to use OpenLayers in a web application, you can 
-include <a href="http://www.openlayers.org/api/OpenLayers.js"><code>&lt;script src="http://www.openlayers.org/api/OpenLayers.js"&gt;&lt;/script&gt;</code></a>
-in your page, to always get the latest release.</p>
-
-<p> The code is also available in our
+<p>Releases are made available on the <a href="/download/">downloads</a> page.  The code is also available in our
 <a href="//trac.openlayers.org/wiki/HowToDownload">Subversion repository</a>.
 Using Subversion, you can keep up to the absolute bleeding edge of the code.
 If you wish to report a bug in the API, and you are able to use Subversion, 
