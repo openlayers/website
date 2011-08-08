@@ -42,7 +42,7 @@
 
     <h3>Get OpenLayers Now!</h3>
     <ul style="font-size:.9em;margin-top:0px;">
-    <li>2.10 (Stable): <a href="/download/OpenLayers-2.10.tar.gz">.tar.gz</a> | <a href="/download/OpenLayers-2.10.zip">.zip</a> -- 2.11 RC1: <a href="/download/OpenLayers-2.11-rc1.tar.gz">.tar.gz</a> | <a href="/download/OpenLayers-2.11-rc1.zip">.zip</a></li>
+    <li>2.10 (Stable): <a href="/download/OpenLayers-2.10.tar.gz">.tar.gz</a> | <a href="/download/OpenLayers-2.10.zip">.zip</a> -- 2.11 RC2: <a href="/download/OpenLayers-2.11-rc1.tar.gz">.tar.gz</a> | <a href="/download/OpenLayers-2.11-rc1.zip">.zip</a></li>
     <li><a href="http://trac.openlayers.org/wiki/Release/2.10/Notes">2.10 Release Notes</a> | <a href="http://trac.openlayers.org/wiki/Release/2.11/Notes">2.11 Release Notes</a></li>
     <li><a href="http://dev.openlayers.org/releases/OpenLayers-2.10/doc/apidocs/files/OpenLayers-js.html">Class Documentation</a>, <a href="http://trac.openlayers.org/wiki/Documentation">More documentation</a></li>
     <li>See examples of OpenLayers Usage: <a href="http://dev.openlayers.org/releases/OpenLayers-2.10/examples/">Release Examples (2.10)</a>, <a href="/dev/examples/">Development Examples (trunk)</a></li>
