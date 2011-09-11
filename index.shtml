@@ -14,8 +14,8 @@
             <h3>Books about OpenLayers</h3>
             <ul>
                 <li>
-                    <a href="https://www.packtpub.com/openlayers-2-1-javascript-web-mapping-library-beginners-guide/book"><img src="https://www.packtpub.com/sites/default/files/imagecache/productview/4125OS_OpenLayers%202.10%20Beginner%27s%20Guidecov_0.jpg"></a>
-                    <a href="https://www.packtpub.com/openlayers-2-1-javascript-web-mapping-library-beginners-guide/book">OpenLayers 2.10 Beginner's Guide</a><div class="author">Erik Hazzard</div>Available in Print and eBook formats from <a href="https://www.packtpub.com/openlayers-2-1-javascript-web-mapping-library-beginners-guide/book">Packt Publishing</a>.
+                    <a href="https://www.packtpub.com/openlayers-2-1-javascript-web-mapping-library-beginners-guide/book"><img src="https://www.packtpub.com/sites/default/files/imagecache/productview/4125OS_OpenLayers%202.11%20Beginner%27s%20Guidecov_0.jpg"></a>
+                    <a href="https://www.packtpub.com/openlayers-2-1-javascript-web-mapping-library-beginners-guide/book">OpenLayers 2.11 Beginner's Guide</a><div class="author">Erik Hazzard</div>Available in Print and eBook formats from <a href="https://www.packtpub.com/openlayers-2-1-javascript-web-mapping-library-beginners-guide/book">Packt Publishing</a>.
                 </li>
                 <li>
                     <a href="https://www.opensourcepress.de/index.php?26&backPID=178&tt_products=287"><img src="https://www.opensourcepress.de/typo3temp/pics/acf15740f4.png"></a>
@@ -42,10 +42,10 @@
 
     <h3>Get OpenLayers Now!</h3>
     <ul style="font-size:.9em;margin-top:0px;">
-    <li>2.10 (Stable): <a href="/download/OpenLayers-2.10.tar.gz">.tar.gz</a> | <a href="/download/OpenLayers-2.10.zip">.zip</a> -- 2.11 RC4: <a href="/download/OpenLayers-2.11-rc4.tar.gz">.tar.gz</a> | <a href="/download/OpenLayers-2.11-rc4.zip">.zip</a></li>
-    <li><a href="http://trac.openlayers.org/wiki/Release/2.10/Notes">2.10 Release Notes</a> | <a href="http://trac.openlayers.org/wiki/Release/2.11/Notes">2.11 Release Notes</a></li>
-    <li><a href="http://dev.openlayers.org/releases/OpenLayers-2.10/doc/apidocs/files/OpenLayers-js.html">Class Documentation</a>, <a href="http://trac.openlayers.org/wiki/Documentation">More documentation</a></li>
-    <li>See examples of OpenLayers Usage: <a href="http://dev.openlayers.org/releases/OpenLayers-2.10/examples/">Release Examples (2.10)</a>, <a href="/dev/examples/">Development Examples (trunk)</a></li>
+    <li>2.11 (Stable): <a href="/download/OpenLayers-2.11.tar.gz">.tar.gz</a> | <a href="/download/OpenLayers-2.11.zip">.zip</a></li>
+    <li><a href="http://trac.openlayers.org/wiki/Release/2.11/Notes">2.11 Release Notes</a></li>
+    <li><a href="http://dev.openlayers.org/releases/OpenLayers-2.11/doc/apidocs/files/OpenLayers-js.html">Class Documentation</a>, <a href="http://trac.openlayers.org/wiki/Documentation">More documentation</a></li>
+    <li>See examples of OpenLayers Usage: <a href="http://dev.openlayers.org/releases/OpenLayers-2.11/examples/">Release Examples (2.11)</a>, <a href="/dev/examples/">Development Examples (trunk)</a></li>
     </ul>
     </p>
     <h3>About...</h3>
