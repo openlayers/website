@@ -1,64 +1,30 @@
-<!DOCTYPE html
-    PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<!DOCTYPE html>
+<html>
 <head>
   <title>OpenLayers: <!--#echo var="title" --></title>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <link rel="stylesheet" href="/trac.css" type="text/css" />
-  <link rel="stylesheet" href="/common.css" type="text/css" />
-  <link rel="stylesheet" href="/website.css" type="text/css" />
-  <meta name="verify-v1" content="p07VY29NG/hLEwVP1RyE0P1chgYyekPikjkMUEgrVAI=" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <link rel="stylesheet" href="/trac.css" type="text/css">
+  <link rel="stylesheet" href="/common.css" type="text/css">
+  <link rel="stylesheet" href="/website.css" type="text/css">
+  <link rel="stylesheet" href="/api/theme/default/style.css" type="text/css">
+  <meta name="verify-v1" content="p07VY29NG/hLEwVP1RyE0P1chgYyekPikjkMUEgrVAI=">
   <!--[if lt IE 7]>
   <script defer="defer" type="text/javascript" src="/pngfix.js"></script>
   <![endif]-->
   <style>
       .olControlAttribution {
-          position      : absolute;
-          font-size     : 10px;
-          bottom        : 0 !important;
-          right         : 0 !important;
-          background    : rgba(0,0,0,0.1);
-          font-family   : Arial;
-          padding       : 2px 4px;
-          border-radius : 5px 0 0 0;
+          position: absolute;
+          font-size: 10px;
+          bottom: 0;
+          right: 0;
+          background: rgba(0,0,0,0.1);
+          font-family: Arial;
+          padding: 2px 4px;
+          border-radius: 5px 0 0 0;
       }
       div.olControlZoomPanel {
-          height: 108px;
-          width: 36px;
-          position: absolute;
           top: 15px;
           left: 15px;
-      }
-      div.olControlZoomPanel .olControlZoomInItemInactive,
-      div.olControlZoomPanel .olControlZoomOutItemInactive {
-          background: rgba(0,0,0,0.2);
-          position: absolute;
-      }
-      div.olControlZoomPanel .olControlZoomInItemInactive {
-          border-radius: 5px 5px 0 0;
-      }
-      div.olControlZoomPanel .olControlZoomOutItemInactive {
-          border-radius: 0 0 5px 5px ;
-          top: 37px;
-      }
-      div.olControlZoomPanel .olControlZoomOutItemInactive:after ,
-      div.olControlZoomPanel .olControlZoomInItemInactive:after{
-          font-weight: bold;
-          content: '+';
-          font-size : 36px;
-          padding: 7px;
-          z-index: 2000;
-          color: #fff;
-          line-height: 1em;
-      }
-      div.olControlZoomPanel .olControlZoomOutItemInactive:after{
-          content: '–';
-          line-height: 0.9em;
-          padding: 0 8px;
-      }
-      div.olControlZoomPanel .olControlZoomToMaxExtentItemInactive {
-          display: none;
       }
   </style>
 </head>
