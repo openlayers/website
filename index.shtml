@@ -97,32 +97,24 @@ href="//trac.openlayers.org">wiki</a> for the very latest updates and
 documentation, and thank you for taking an interest.</p> 
   <script type="text/javascript" src="/api/OpenLayers.js"></script>
   <script type="text/javascript">
-        <!--
-            var map = new OpenLayers.Map('map', {'maxResolution': 1.40625/2});
-
-            var ol_wms = new OpenLayers.Layer.WMS( "World Map", 
-              "http://labs.metacarta.com/wms-c/Basic.py?", {layers: 'basic', format: 'image/png' } );
-
-            var jpl_wms = new OpenLayers.Layer.WMS("Imagery", 
-                ["http://t1.hypercube.telascience.org/tiles?",
-                 "http://t2.hypercube.telascience.org/tiles?",
-                 "http://t3.hypercube.telascience.org/tiles?",
-                 "http://t4.hypercube.telascience.org/tiles?"], 
-                {layers: 'landsat7'}
-            );
-
-            var dm_wms = new OpenLayers.Layer.WMS( "Canada",
-                "http://www2.dmsolutions.ca/cgi-bin/mswms_gmap",
-                {layers: "bathymetry,land_fn,park,drain_fn,drainage," +
-                         "prov_bound,fedlimit,rail,road,popplace",
-                 transparent: "true", format: "image/png" });
-
-            dm_wms.setVisibility(false);
-
-
-            map.addLayers([ol_wms, jpl_wms, dm_wms]);
-            map.addControl(new OpenLayers.Control.LayerSwitcher());
-            map.zoomToMaxExtent();
-        // -->
-    </script>
+      var map = new OpenLayers.Map({
+          div: "map",
+          controls: [
+              new OpenLayers.Control.Attribution(),
+              new OpenLayers.Control.TouchNavigation({
+                  dragPanOptions: {
+                      enableKinetic: true
+                  }
+              }),
+              new OpenLayers.Control.ZoomPanel()
+          ],
+          layers: [
+              new OpenLayers.Layer.OSM("OpenStreetMap", null, {
+                  transitionEffect: "resize"
+              })
+          ],
+          center: new OpenLayers.LonLat(0, 0),
+          zoom: 1
+      });
+  </script>
 <!--#include virtual="/include/foot.html" -->
