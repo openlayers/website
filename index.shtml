@@ -29,9 +29,9 @@
             <p>Visit our <a href="sponsorship/">sponsorship page</a> to find out how you can become an OpenLayers sponsor.  Or use the donation button below to contribute any amount today.</p>
             <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
                 <input type="hidden" name="cmd" value="_s-xclick">
-                <input type="hidden" name="hosted_button_id" value="CQJDSQUTFFSVW">
+                <input type="hidden" name="hosted_button_id" value="WFGDRD72RGNAW">
                 <div class="centered"><input type="image" src="/images/donate.gif" border="0" name="submit" alt="Donate with PayPal"></div>
-                <img alt="" border="0" src="https://www.paypalobjects.com/WEBSCR-640-20110429-1/en_US/i/scr/pixel.gif" width="1" height="1">
+                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
             </form>
         </div>
     </div>
@@ -91,10 +91,6 @@ still try some <a href="/dev/examples/">live examples</a> on
 openlayers.org. If you're familiar with JavaScript, try viewing the source
 of the examples to get an idea how the OpenLayers library is used.</p>
 
-<p>OpenLayers is still undergoing rapid development, so expect a lot to change
-in the next few weeks and months. We need your support! Please check the <a
-href="//trac.openlayers.org">wiki</a> for the very latest updates and
-documentation, and thank you for taking an interest.</p> 
   <script type="text/javascript" src="/api/OpenLayers.js"></script>
   <script type="text/javascript">
       var map = new OpenLayers.Map({
