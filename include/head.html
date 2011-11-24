@@ -23,6 +23,13 @@
           padding       : 2px 4px;
           border-radius : 5px 0 0 0;
       }
+      div.olControlZoomPanel {
+          height: 108px;
+          width: 36px;
+          position: absolute;
+          top: 15px;
+          left: 15px;
+      }
       div.olControlZoomPanel .olControlZoomInItemInactive,
       div.olControlZoomPanel .olControlZoomOutItemInactive {
           background: rgba(0,0,0,0.2);
@@ -38,11 +45,11 @@
       div.olControlZoomPanel .olControlZoomOutItemInactive:after ,
       div.olControlZoomPanel .olControlZoomInItemInactive:after{
           font-weight: bold;
-          content   : '+';
+          content: '+';
           font-size : 36px;
-          padding:  7px;
+          padding: 7px;
           z-index: 2000;
-          color     : #fff;
+          color: #fff;
           line-height: 1em;
       }
       div.olControlZoomPanel .olControlZoomOutItemInactive:after{

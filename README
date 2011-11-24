@@ -16,6 +16,6 @@ fixed by adding the following to the Trac VirtualHost:
 The Apache server on openlayers.org is (naturally) currently configured this
 way.
 
-The openlayers directory in this directory is a separate checkout from
-htdocs.  You must go INSIDE the openlayers directory to update it.
-updating ~/openlayers.org/htdocs only gets the home page material.
+Find the checkout of this directory at /osgeo/openlayers/docs on the 
+openlayers.org machine.  The checkout is updated by a cron job that runs the
+update_dev_dir.sh script.
