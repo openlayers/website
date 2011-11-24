@@ -44,8 +44,9 @@
     <ul style="font-size:.9em;margin-top:0px;">
     <li>2.11 (Stable): <a href="/download/OpenLayers-2.11.tar.gz">.tar.gz</a> | <a href="/download/OpenLayers-2.11.zip">.zip</a></li>
     <li><a href="http://trac.openlayers.org/wiki/Release/2.11/Notes">2.11 Release Notes</a></li>
-    <li><a href="http://dev.openlayers.org/releases/OpenLayers-2.11/doc/apidocs/files/OpenLayers-js.html">Class Documentation</a>, <a href="http://trac.openlayers.org/wiki/Documentation">More documentation</a></li>
+    <li><a href="http://dev.openlayers.org/releases/OpenLayers-2.11/doc/apidocs/files/OpenLayers-js.html">API Documentation</a>, <a href="http://trac.openlayers.org/wiki/Documentation">User documentation</a></li>
     <li>See examples of OpenLayers Usage: <a href="http://dev.openlayers.org/releases/OpenLayers-2.11/examples/">Release Examples (2.11)</a>, <a href="/dev/examples/">Development Examples</a></li>
+    <li>Fork us on <a href="https://github.com/openlayers/openlayers">GitHub</a></li>
     </ul>
     </p>
     <h3>About...</h3>
@@ -70,25 +71,14 @@ Google Maps and MSN Virtual Earth APIs, with one important difference --
 OpenLayers is Free Software, developed for and by the Open Source software
 community.</p>
 
-<p>As a framework, OpenLayers is intended to separate map <i>tools</i> from map
-<i>data</i> so that all the tools can operate on all the data sources.  This
-separation breaks the proprietary silos that earlier GIS revolutions have
-taught civilization to avoid.  The mapping revolution on the public Web should
-benefit from the experience of history.</p>
-
  <h3>Getting the Code</h3>
 
 <p>Releases are made available on the <a href="/download/">downloads</a> page.  The code is also available in our
-<a href="//trac.openlayers.org/wiki/HowToDownload">Subversion repository</a>.
-Using Subversion, you can keep up to the absolute bleeding edge of the code.
-If you wish to report a bug in the API, and you are able to use Subversion, 
-please see if the bug has been fixed in Subversion first: OpenLayers is
-under rapid development, so things change quickly.
-</p>
+<a href="//trac.openlayers.org/wiki/HowToDownload">Git repository</a>.
+With a clone of the Git repository, you can keep up with the latest and contribute patches to OpenLayers.</p>
 
-<p>If you don't have Subversion or don't want to download the code, you can
-still try some <a href="/dev/examples/">live examples</a> on
-openlayers.org. If you're familiar with JavaScript, try viewing the source
+<p>If you don't want to download the code, you can
+still try some of the <a href="/dev/examples/">hosted examples</a>. If you're familiar with JavaScript, try viewing the source
 of the examples to get an idea how the OpenLayers library is used.</p>
 
   <script type="text/javascript" src="/api/OpenLayers.js"></script>
