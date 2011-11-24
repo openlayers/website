@@ -6,6 +6,12 @@
         <div id="side-panel" class="cleared">
             <div id="sponsors">
                 <h3>OpenLayers Sponsors</h3>
+                <h4>Silver ($3000+ USD)</h4>
+                <ul>
+                    <li>
+                        <a href="http://www.cadcorp.com/">Cadcorp</a> (2011)
+                    </li>
+                </ul>
                 <h4>Bronze ($1000+ USD)</h4>
                 <ul>
                     <li>
