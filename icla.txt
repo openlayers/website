@@ -17,10 +17,10 @@ If you have not already done so, please complete and send an Agreement to:
 
 You can also send a signed agreement via postal mail to: 
 
-    OpenLayers CLA c/o OSGeo 
-    PO Box 4844
-    Williams Lake
-    British Columbia, Canada, V2G 2V8
+    14525 SW Millikan #42523
+    Beaverton, Oregon
+    United States
+    97005-2343
 
 If you can not sign this document before e-mailing it (via scanning or
 other means), please type "I AGREE" into the signature line instead.
