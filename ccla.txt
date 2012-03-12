@@ -19,10 +19,10 @@ copyright and patent licenses thereto.
 If you have not already done so, please complete and send an original
 signed Agreement to:
 
-    OpenLayers CLA c/o OSGeo 
-    PO Box 4844
-    Williams Lake
-    British Columbia, Canada, V2G 2V8
+    14525 SW Millikan #42523
+    Beaverton, Oregon
+    United States
+    97005-2343
 
 The signed Agreement may also be sent by facsimile if necessary. Please
 contact the OpenLayers developers for assistance if this is necessary.
