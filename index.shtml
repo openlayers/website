@@ -1,13 +1,9 @@
 <!--#set var="title" value="Home" -->
 <!--#include virtual="/include/head.html" -->
   <div id="main">
-    <div id="mapFrame" style="margin-top:-30px">
-      <div style="margin:0px" id="map"></div>
+    <div id="mapFrame">
+      <div id="map"></div>
       <div style="text-align:center"><b>Put an open map widget in any web page!</b></div>
-      <div style="text-align:center">
-        Double-click to zoom in, and drag to pan. Hold down the shift key
-        and drag to zoom to a particular region.
-      </div>
     </div>
     <div id="side-panel" class="cleared">
         <div id="publications">
