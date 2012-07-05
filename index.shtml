@@ -93,7 +93,7 @@ of the examples to get an idea how the OpenLayers library is used.</p>
                       enableKinetic: true
                   }
               }),
-              new OpenLayers.Control.ZoomPanel()
+              new OpenLayers.Control.Zoom()
           ],
           layers: [
               new OpenLayers.Layer.OSM("OpenStreetMap", null, {
