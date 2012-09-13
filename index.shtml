@@ -97,7 +97,8 @@ of the examples to get an idea how the OpenLayers library is used.</p>
           ],
           layers: [
               new OpenLayers.Layer.OSM("OpenStreetMap", null, {
-                  transitionEffect: "resize"
+                  transitionEffect: "resize",
+                  attribution: "&copy; <a href='http://www.openstreetmap.org/copyright'>OpenStreetMap</a> contributors"
               })
           ],
           center: new OpenLayers.LonLat(0, 0),
