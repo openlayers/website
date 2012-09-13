@@ -10,6 +10,10 @@
             <h3>Books about OpenLayers</h3>
             <ul>
                 <li>
+                    <a href="http://www.packtpub.com/openlayers-create-gis-web-applications-cookbook/book"><img src="/images/packt-ol-cookbook.png"></a>
+                    <a href="http://www.packtpub.com/openlayers-create-gis-web-applications-cookbook/book">OpenLayers Cookbook</a><div class="author">Antonio Santiago Perez</div>Available in Print and eBook formats from <a href="http://www.packtpub.com/openlayers-create-gis-web-applications-cookbook/book">Packt Publishing</a>.
+                </li>
+                <li>
                     <a href="https://www.packtpub.com/openlayers-2-1-javascript-web-mapping-library-beginners-guide/book"><img src="/images/packt-ol.jpg"></a>
                     <a href="https://www.packtpub.com/openlayers-2-1-javascript-web-mapping-library-beginners-guide/book">OpenLayers 2.10 Beginner's Guide</a><div class="author">Erik Hazzard</div>Available in Print and eBook formats from <a href="https://www.packtpub.com/openlayers-2-1-javascript-web-mapping-library-beginners-guide/book">Packt Publishing</a>.
                 </li>
