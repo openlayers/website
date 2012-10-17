@@ -26,13 +26,14 @@
         <div class="cleared spaced">
             <a href="http://www.osgeo.org/" class="centered"><img src="/images/osgeo_sm.png"></a>
             <p>OpenLayers is a project of the <a href="http://www.osgeo.org/">Open Source Geospatial Foundation</a>.</p>
-            <p>Visit our <a href="sponsorship/">sponsorship page</a> to find out how you can become an OpenLayers sponsor.  Or use the donation button below to contribute any amount today.</p>
-            <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
-                <input type="hidden" name="cmd" value="_s-xclick">
-                <input type="hidden" name="hosted_button_id" value="WFGDRD72RGNAW">
-                <div class="centered"><input type="image" src="/images/donate.gif" border="0" name="submit" alt="Donate with PayPal"></div>
-                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-            </form>
+            <p>Visit our <a href="sponsorship/">sponsorship page</a> to find out how you can become an OpenLayers sponsor.
+            </p>
+            <p>We welcome contributions of any size.  If you're interested in supporting OpenLayers development, you can also use our Gittip account:
+            <iframe style="border: 0; margin: 0; padding: 0;"
+                src="https://www.gittip.com/openlayers/widget.html"
+                width="48pt" height="20pt">
+            </iframe>
+            </p>
         </div>
     </div>
 
@@ -52,16 +53,16 @@
     <h3>About...</h3>
     <p>OpenLayers makes it easy to put a dynamic map in any web page.  It can
 display map tiles and markers loaded from any source.    OpenLayers has been developed to further the use of geographic
-information of all kinds.  OpenLayers is 
+information of all kinds.  OpenLayers is
 completely free, Open Source JavaScript, released under the <a href="https://raw.github.com/openlayers/openlayers/master/license.txt">2-clause BSD License</a> (also known as the FreeBSD).</p>
 
     <h3>Supporting OpenLayers</h3>
-    <p>OpenLayers is developed and supported by a number of organizations 
-       around the world. We are also looking for 
+    <p>OpenLayers is developed and supported by a number of organizations
+       around the world. We are also looking for
        <a href="/sponsorship/">sponsors</a> to help support the community.
        If you are in a position where you want to support the development
        of OpenLayers, but do not have development resources to share, you
-       may be interested in supporting through our sponsorship program.</p> 
+       may be interested in supporting through our sponsorship program.</p>
     <h3>For Developers!</h3>
 <p>OpenLayers is a pure JavaScript library for displaying map data in most
 modern web browsers, with no server-side dependencies. OpenLayers implements a
