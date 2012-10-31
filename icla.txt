@@ -15,13 +15,6 @@ If you have not already done so, please complete and send an Agreement to:
 
     openlayers-cla < at > lists.osgeo.org
 
-You can also send a signed agreement via postal mail to: 
-
-    14525 SW Millikan #42523
-    Beaverton, Oregon
-    United States
-    97005-2343
-
 If you can not sign this document before e-mailing it (via scanning or
 other means), please type "I AGREE" into the signature line instead.
 

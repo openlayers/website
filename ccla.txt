@@ -16,13 +16,8 @@ submit Contributions to the Maintainer, to authorize Contributions
 submitted by its designated employees to the Maintainer, and to grant
 copyright and patent licenses thereto.
 
-If you have not already done so, please complete and send an original
-signed Agreement to:
-
-    14525 SW Millikan #42523
-    Beaverton, Oregon
-    United States
-    97005-2343
+If you have not already done so, please complete and sign the Agreement
+and mail a scanned copy of it to openlayers-cla < at > lists.osgeo.org.
 
 The signed Agreement may also be sent by facsimile if necessary. Please
 contact the OpenLayers developers for assistance if this is necessary.
