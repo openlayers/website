@@ -8,6 +8,24 @@ text-decoration: none;
 border-bottom: none;
 }
 
+#main p.sponsor-notice {
+    margin-right: 360px;
+    padding: 0.75em;
+    background: #130085;
+    background: rgba(0, 60, 136, 0.5);
+    filter: alpha(opacity=80);
+    -moz-box-shadow: 4px 4px 2px #888;
+    -webkit-box-shadow: 4px 4px 2px #888;
+    box-shadow: 4px 4px 2px #888;
+    color: #fff;
+}
+p.sponsor-notice a {
+    color: #fc3;
+}
+p.sponsor-notice a:hover {
+    color: #f90;
+}
+
 /* Remove margins and fix the navigation bar */
 body {
 margin: 0px;
