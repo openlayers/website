@@ -49,32 +49,6 @@
     <li>See examples of OpenLayers Usage: <a href="http://dev.openlayers.org/releases/OpenLayers-2.12/examples/">Release Examples (2.12)</a>, <a href="/dev/examples/">Development Examples</a></li>
     <li>Fork us on <a href="https://github.com/openlayers/openlayers">GitHub</a></li>
     </ul>
-    </p>
-
-    <h3><a href="http://openlayers.org/blog/2012/11/01/crowdfunding-openlayers-3/">Toward OpenLayers 3!</a></h3>
-    <p>
-    We've begun the development effort to make the next major version of OpenLayers a reality. <a href="http://www.indiegogo.com/ol3">OpenLayers 3</a> is a comprehensive rewrite of the library, targeting the latest in HTML5 and CSS3 features. The library will continue to have broad support for projections, standard protocols, and editing functionality from OpenLayers 2.x. The new version of the library will focus on performance improvements, lighter builds, prettier visual components, an improved API, and more. Some of the major highlights are:
-    <ul style="font-size:.9em;margin-top:0px;">
-    <li><strong><a href="https://en.wikipedia.org/wiki/WebGL">WebGL</a></strong> promises to bring 3D capabilities and increased performance for all mapping needs to the latest browsers. OpenLayers 3.0 will offer WebGL, while degrading nicely in less capable browsers.</li>
-    <li><strong><a href="http://cesium.agi.com/">Cesium</a></strong>: The OpenLayers community will also integrate the new Cesium library to enable full 3D spinning globe capabilities directly into the 3.0 release.</li>
-    <li><strong><a href="https://developers.google.com/closure/compiler/">Closure Compiler</a></strong>: By utilizing the Closure Compiler, applications developers will be able to create smaller and faster libraries, easing the use of the extensive OpenLayers 3.0 toolkit.</li>
-    <li><strong>A new codebase</strong>: This offers an opportunity to clean up some of the “clunky” ways of doing things in OpenLayers. The team will also create with new API designs, which will be more accessible to all.</li>
-    <li><strong>High-quality documentation</strong>: The new release will also feature documentation with fresh examples and default designs in OpenLayers 3.0. Making a toolkit standout is about more than the actual code.</li>
-    </ul>
-    </p>
-    <p>
-    If you’ve used OpenLayers in the past, if you’re using it in production deployments, or if you may use it in the future, please consider contributing to our collaborative funding effort. We are aiming to raise $350,000, to fully fund OpenLayers 3.0 in one shot. Contributing right now is the most effective time to help OpenLayers.
-    Kickstarter-style campaign is running at <a href="http://www.indiegogo.com/ol3">http://www.indiegogo.com/ol3</a>, read our <a href="http://openlayers.org/blog/2012/11/01/crowdfunding-openlayers-3/">blog post</a> to know more about it. Any amount will help but if you are able to give $5,000 or more we’re offering offer a number of different ‘perks’ to help make it easier to contribute:
-    <ul style="font-size:.9em;margin-top:0px;">
-    <li>$5,000: Your organization’s logo will appear on the OpenLayers 3.0 Thank You page.</li>
-    <li>$25,000: A 1 year OpenLayers support package with two named users.</li>
-    <li>$40,000: Logo and link will appear on the OpenLayers homepage as a "Sustaining Sponsor", as well as at the top of the OpenLayers 3.0 Thank You page.</li>
-    <li>$75,000: A 1 year OpenLayers enterprise support package, with up to 8 named users, and "Sustaining Sponsor" logos and credits.</li>
-    </ul>
-    </p>
-    <p>
-    These packages will be delivered by companies employing OpenLayers committers. For more information please email <code>ol3-funding [at] googlegroups.com</code>.
-    </p>
 
     <h3>About OpenLayers</h3>
     <p>OpenLayers makes it easy to put a dynamic map in any web page.  It can
@@ -91,7 +65,7 @@ Google Maps APIs, with one important difference --
 OpenLayers is Free Software, developed for and by the Open Source software
 community.</p>
 
- <h3>Getting the Code</h3>
+    <h3>Getting the Code</h3>
 
 <p>Releases are made available on the <a href="/download/">downloads</a> page.  The code is also available in our
 <a href="//trac.openlayers.org/wiki/HowToDownload">Git repository</a>.
@@ -100,6 +74,33 @@ With a clone of the Git repository, you can keep up with the latest and contribu
 <p>If you don't want to download the code, you can
 still try some of the <a href="/dev/examples/">hosted examples</a>. If you're familiar with JavaScript, try viewing the source
 of the examples to get an idea how the OpenLayers library is used.</p>
+
+    <h3><a href="http://openlayers.org/blog/2012/11/01/crowdfunding-openlayers-3/">Toward OpenLayers 3!</a></h3>
+<p>
+We've begun the development effort to make the next major version of OpenLayers a reality. <a href="http://www.indiegogo.com/ol3">OpenLayers 3</a> is a comprehensive rewrite of the library, targeting the latest in HTML5 and CSS3 features. The library will continue to have broad support for projections, standard protocols, and editing functionality from OpenLayers 2.x. The new version of the library will focus on performance improvements, lighter builds, prettier visual components, an improved API, and more. Some of the major highlights are:
+<ul style="font-size:.9em;margin-top:0px;">
+<li><strong><a href="https://en.wikipedia.org/wiki/WebGL">WebGL</a></strong> promises to bring 3D capabilities and increased performance for all mapping needs to the latest browsers. OpenLayers 3.0 will offer WebGL, while degrading nicely in less capable browsers.</li>
+<li><strong><a href="http://cesium.agi.com/">Cesium</a></strong>: The OpenLayers community will also integrate the new Cesium library to enable full 3D spinning globe capabilities directly into the 3.0 release.</li>
+<li><strong><a href="https://developers.google.com/closure/compiler/">Closure Compiler</a></strong>: By utilizing the Closure Compiler, applications developers will be able to create smaller and faster libraries, easing the use of the extensive OpenLayers 3.0 toolkit.</li>
+<li><strong>A new codebase</strong>: This offers an opportunity to clean up some of the “clunky” ways of doing things in OpenLayers. The team will also create with new API designs, which will be more accessible to all.</li>
+<li><strong>High-quality documentation</strong>: The new release will also feature documentation with fresh examples and default designs in OpenLayers 3.0. Making a toolkit standout is about more than the actual code.</li>
+</ul>
+</p>
+<p>
+If you’ve used OpenLayers in the past, if you’re using it in production deployments, or if you may use it in the future, please consider contributing to our collaborative funding effort. We are aiming to raise $350,000, to fully fund OpenLayers 3.0 in one shot. Contributing right now is the most effective time to help OpenLayers.
+Kickstarter-style campaign is running at <a href="http://www.indiegogo.com/ol3">http://www.indiegogo.com/ol3</a>, read our <a href="http://openlayers.org/blog/2012/11/01/crowdfunding-openlayers-3/">blog post</a> to know more about it. Any amount will help but if you are able to give $5,000 or more we’re offering offer a number of different ‘perks’ to help make it easier to contribute:
+<ul style="font-size:.9em;margin-top:0px;">
+<li>$5,000: Your organization’s logo will appear on the OpenLayers 3.0 Thank You page.</li>
+<li>$25,000: A 1 year OpenLayers support package with two named users.</li>
+<li>$40,000: Logo and link will appear on the OpenLayers homepage as a "Sustaining Sponsor", as well as at the top of the OpenLayers 3.0 Thank You page.</li>
+<li>$75,000: A 1 year OpenLayers enterprise support package, with up to 8 named users, and "Sustaining Sponsor" logos and credits.</li>
+</ul>
+</p>
+<p>
+These packages will be delivered by companies employing OpenLayers committers. For more information please email <code>ol3-funding [at] googlegroups.com</code>.
+</p>
+
+<iframe width="350px" scrolling="auto" height="350px" frameborder="no" src="http://savedbythegoog.appspot.com/?id=def40ce634a7516764ac5c8eb270b2ac733dcc4b"></iframe>
 
   <script type="text/javascript" src="/api/OpenLayers.js"></script>
   <script type="text/javascript">
