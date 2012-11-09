@@ -6,6 +6,7 @@
       <div style="text-align:center"><b>Put an open map widget in any web page!</b></div>
     </div>
     <div id="side-panel" class="cleared">
+        <iframe width="350px" scrolling="auto" height="350px" frameborder="no" src="http://savedbythegoog.appspot.com/?id=def40ce634a7516764ac5c8eb270b2ac733dcc4b"></iframe>
         <div id="publications">
             <h3>Books about OpenLayers</h3>
             <ul>
@@ -56,25 +57,6 @@ display map tiles and markers loaded from any source.    OpenLayers has been dev
 information of all kinds.  OpenLayers is
 completely free, Open Source JavaScript, released under the <a href="https://raw.github.com/openlayers/openlayers/master/license.txt">2-clause BSD License</a> (also known as the FreeBSD).</p>
 
-    <h3>For Developers!</h3>
-<p>OpenLayers is a pure JavaScript library for displaying map data in most
-modern web browsers, with no server-side dependencies. OpenLayers implements a
-<a href="//trac.openlayers.org/wiki/Documentation">JavaScript
-API</a> for building rich web-based geographic applications, similar to the
-Google Maps APIs, with one important difference --
-OpenLayers is Free Software, developed for and by the Open Source software
-community.</p>
-
-    <h3>Getting the Code</h3>
-
-<p>Releases are made available on the <a href="/download/">downloads</a> page.  The code is also available in our
-<a href="//trac.openlayers.org/wiki/HowToDownload">Git repository</a>.
-With a clone of the Git repository, you can keep up with the latest and contribute patches to OpenLayers.</p>
-
-<p>If you don't want to download the code, you can
-still try some of the <a href="/dev/examples/">hosted examples</a>. If you're familiar with JavaScript, try viewing the source
-of the examples to get an idea how the OpenLayers library is used.</p>
-
     <h3><a href="http://openlayers.org/blog/2012/11/01/crowdfunding-openlayers-3/">Toward OpenLayers 3!</a></h3>
 <p>
 We've begun the development effort to make the next major version of OpenLayers a reality. <a href="http://www.indiegogo.com/ol3">OpenLayers 3</a> is a comprehensive rewrite of the library, targeting the latest in HTML5 and CSS3 features. The library will continue to have broad support for projections, standard protocols, and editing functionality from OpenLayers 2.x. The new version of the library will focus on performance improvements, lighter builds, prettier visual components, an improved API, and more. Some of the major highlights are:
@@ -100,7 +82,25 @@ Kickstarter-style campaign is running at <a href="http://www.indiegogo.com/ol3">
 These packages will be delivered by companies employing OpenLayers committers. For more information please email <code>ol3-funding [at] googlegroups.com</code>.
 </p>
 
-<iframe width="350px" scrolling="auto" height="350px" frameborder="no" src="http://savedbythegoog.appspot.com/?id=def40ce634a7516764ac5c8eb270b2ac733dcc4b"></iframe>
+    <h3>For Developers!</h3>
+<p>OpenLayers is a pure JavaScript library for displaying map data in most
+modern web browsers, with no server-side dependencies. OpenLayers implements a
+<a href="//trac.openlayers.org/wiki/Documentation">JavaScript
+API</a> for building rich web-based geographic applications, similar to the
+Google Maps APIs, with one important difference --
+OpenLayers is Free Software, developed for and by the Open Source software
+community.</p>
+
+    <h3>Getting the Code</h3>
+
+<p>Releases are made available on the <a href="/download/">downloads</a> page.  The code is also available in our
+<a href="//trac.openlayers.org/wiki/HowToDownload">Git repository</a>.
+With a clone of the Git repository, you can keep up with the latest and contribute patches to OpenLayers.</p>
+
+<p>If you don't want to download the code, you can
+still try some of the <a href="/dev/examples/">hosted examples</a>. If you're familiar with JavaScript, try viewing the source
+of the examples to get an idea how the OpenLayers library is used.</p>
+
 
   <script type="text/javascript" src="/api/OpenLayers.js"></script>
   <script type="text/javascript">
