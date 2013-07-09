@@ -44,10 +44,10 @@
 
     <h3>Get OpenLayers Now!</h3>
     <ul style="font-size:.9em;margin-top:0px;">
-    <li>2.13 (Stable): <a href="/download/OpenLayers-2.13.tar.gz">.tar.gz</a> | <a href="/download/OpenLayers-2.13.zip">.zip</a></li>
-    <li><a href="https://github.com/openlayers/openlayers/blob/master/notes/2.13.md">2.13 Release Notes</a></li>
-    <li><a href="http://dev.openlayers.org/releases/OpenLayers-2.13/doc/apidocs/files/OpenLayers-js.html">API Documentation</a>, <a href="http://trac.openlayers.org/wiki/Documentation">User documentation</a></li>
-    <li>See examples of OpenLayers Usage: <a href="http://dev.openlayers.org/releases/OpenLayers-2.13/examples/">Release Examples (2.13)</a>, <a href="/dev/examples/">Development Examples</a></li>
+    <li>2.13.1 (Stable): <a href="/download/OpenLayers-2.13.1.tar.gz">.tar.gz</a> | <a href="/download/OpenLayers-2.13.1.zip">.zip</a></li>
+    <li><a href="https://github.com/openlayers/openlayers/blob/master/notes/2.13.md">2.13.1 Release Notes</a></li>
+    <li><a href="http://dev.openlayers.org/releases/OpenLayers-2.13.1/doc/apidocs/files/OpenLayers-js.html">API Documentation</a>, <a href="http://trac.openlayers.org/wiki/Documentation">User documentation</a></li>
+    <li>See examples of OpenLayers Usage: <a href="http://dev.openlayers.org/releases/OpenLayers-2.13.1/examples/">Release Examples (2.13.1)</a>, <a href="/dev/examples/">Development Examples</a></li>
     <li>Fork us on <a href="https://github.com/openlayers/openlayers">GitHub</a></li>
     </ul>
 
