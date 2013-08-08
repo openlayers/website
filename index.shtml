@@ -6,7 +6,6 @@
       <div style="text-align:center"><b>Put an open map widget in any web page!</b></div>
     </div>
     <div id="side-panel" class="cleared">
-        <iframe width="350px" scrolling="auto" height="350px" frameborder="no" src="http://savedbythegoog.appspot.com/?id=def40ce634a7516764ac5c8eb270b2ac733dcc4b"></iframe>
         <div id="publications">
             <h3>Books about OpenLayers</h3>
             <ul>
